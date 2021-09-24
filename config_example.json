@@ -1,5 +1,5 @@
 {
-	"extensions": [ "core/bytecoin.json", "bug-fixes.json", "walletd-extension.json", "kill-height.json", "blockchain-explorer.json", "genesis-block-reward.json", "versionized-parameters.json", "multiply.json", "get-blockchain-settings.json", "cryptonight-v7.json", "enable-cors.json", "print-genesis-tx.json" ],
+	"extensions": [ "core/bytecoin.json", "bug-fixes.json", "kill-height.json", "blockchain-explorer.json", "genesis-block-reward.json", "versionized-parameters.json", "multiply.json", "get-blockchain-settings.json", "cryptonight-v7.json", "enable-cors.json", "print-genesis-tx.json" ],
 	"base_coin": "bytecoin-v2",
 	"core":{
 		"CRYPTONOTE_NAME":"TrueSQN",
@@ -11,6 +11,7 @@
 		"P2P_STAT_TRUSTED_PUB_KEY":"",
 		"GENESIS_COINBASE_TX_HEX":"",
 		"GENESIS_BLOCK_REWARD":"0",
+		"KILL_HEIGHT":"0",
 		"BYTECOIN_NETWORK":"b50c4a6c-cf52-5741-65f9-91a4b6c143e9",
 		"MONEY_SUPPLY":"10000000000000000000",
 		"EMISSION_SPEED_FACTOR":13,
