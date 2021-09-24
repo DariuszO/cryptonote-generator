@@ -1,5 +1,5 @@
 {
-	"extensions": [ "core/bytecoin.json", "versionized-parameters.json", "bug-fixes.json", "cryptonight-v7.json", "genesis-block-reward.json", "get-blockchain-settings.json", "multiply.json", "print-genesis-tx.json" ],
+	"extensions": [ "core/bytecoin.json", "print-genesis-tx.json", "versionized-parameters.json", "bug-fixes.json", "cryptonight-v7.json", "genesis-block-reward.json", "get-blockchain-settings.json", "multiply.json" ],
 	"base_coin": "bytecoin-v2",
 	"core":{
 		"CRYPTONOTE_NAME":"TrueSQN",
