@@ -1,8 +1,9 @@
 {
 	"extensions": [ "core/bytecoin.json", "min-mixin.json", "mixin-start-height.json", "mandatory-transaction-in-block.json", "cryptonote-coin-clones-support.json", "print-genesis-tx.json", "genesis-block-reward.json", "blockchain-explorer.json", "enable-cors.json",  "simplewallet-import-keys.json", "simplewallet-export-keys.json", "versionized-parameters.json", "bug-fixes.json", "cryptonight-v7.json", "multiply.json", "get-blockchain-settings.json" ],
 	"base_coin": {
-		"name":"BitAltEarningCoin",
-		"git":"https://github.com/BitAltEarning/BitAltEarningCoin.git"
+		"name":"bitaltearningcoin",
+		"git":"https://github.com/BitAltEarning/BitAltEarningCoin.git",
+		"branch":"dev"
 	},
 	"core":{
 		"CRYPTONOTE_NAME":"TrueSQN",
