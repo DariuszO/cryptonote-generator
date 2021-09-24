@@ -1,0 +1,50 @@
+{
+	"extensions": [ "core/bytecoin.json", "min-mixin.json", "mixin-start-height.json", "mandatory-transaction-in-block.json", "cryptonote-coin-clones-support.json", "print-genesis-tx.json", "genesis-block-reward.json", "blockchain-explorer.json", "enable-cors.json",  "simplewallet-import-keys.json", "simplewallet-export-keys.json", "versionized-parameters.json", "bug-fixes.json", "cryptonight-v7.json", "multiply.json", "get-blockchain-settings.json" ],
+	"base_coin": {
+		"name":"BitAltEarningCoin",
+		"git":"https://github.com/BitAltEarning/BitAltEarningCoin.git"
+	},
+	"core":{
+		"CRYPTONOTE_NAME":"TrueSQN",
+		"CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX":59802815264,
+		"POW_CRYPTONIGHT_V7_BLOCK_INDEX":100000,
+		"P2P_DEFAULT_PORT":7710,
+		"RPC_DEFAULT_PORT":7711,
+		"MIN_MIXIN":1,
+		"SEED_NODES":["127.0.0.1:7710"],
+        "CHECKPOINTS":[ 
+
+	],
+		"P2P_STAT_TRUSTED_PUB_KEY":"",
+		"GENESIS_COINBASE_TX_HEX":"012801ff0001c09e91c191c79502029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101241beb5890c0ae15ae11f1d7302bd610c82cc8320abfa15f847be4c22b13ef51",
+		"BYTECOIN_NETWORK":"b50c4a6c-cf52-5741-65f9-91a4b6c143e9",
+		"MONEY_SUPPLY":"10000000000000000000",
+		"EMISSION_SPEED_FACTOR":13,
+		"DIFFICULTY_TARGET":300,
+		"DIFFICULTY_WINDOW":250,
+		"DIFFICULTY_WINDOW_V1":150,
+		"DIFFICULTY_WINDOW_V2":50,
+		"DIFFICULTY_CUT":60,
+		"DIFFICULTY_CUT_V1":30,
+		"DIFFICULTY_CUT_V2":15,
+		"DIFFICULTY_LAG":15,
+		"DIFFICULTY_LAG_V1":10,
+		"DIFFICULTY_LAG_V2":5,
+		"MINIMUM_FEE":4000,
+		"DEFAULT_DUST_THRESHOLD":1000000,
+		"CRYPTONOTE_DISPLAY_DECIMAL_POINT":3,
+		"CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW":40,
+		"KEY_IMAGE_CHECKING_BLOCK_INDEX":100000,
+		"CRYPTONOTE_BLOCK_FUTURE_TIME_LIMIT":300,
+		"CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE":400000,
+		"CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V1":40000,
+		"CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V2":4000,
+		"CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V3":400,
+		"CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V4":40,
+		"UPGRADE_HEIGHT":1,
+		"UPGRADE_HEIGHT_V1":100000,
+		"UPGRADE_HEIGHT_V2":1000000,
+		"UPGRADE_HEIGHT_V3":2000000,
+		"UPGRADE_HEIGHT_V4":10000000
+	}
+}
