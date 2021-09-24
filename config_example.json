@@ -1,12 +1,10 @@
 {
-	"extensions": [ "core/bytecoin.json", "print-genesis-tx.json", "genesis-block-reward.json", "multiply.json", "versionized-parameters.json", "bug-fixes.json", "cryptonight-v7.json", "get-blockchain-settings.json" ],
+	"extensions": [ "core/bytecoin.json", "print-genesis-tx.json", "genesis-block-reward.json", "multiply.json", "versionized-parameters.json", "bug-fixes.json", "get-blockchain-settings.json" ],
 	"base_coin": "bytecoin-v2",
 	"core":{
 		"CRYPTONOTE_NAME":"TrueSQN",
 		"CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX":59802815264,
-		"KEY_IMAGE_CHECKING_BLOCK_INDEX":1,
-		"POW_CRYPTONIGHT_V7_BLOCK_INDEX":1,
-		"POW_CRYPTONIGHT_V7_LAST_BLOCK":1,
+		"KEY_IMAGE_CHECKING_BLOCK_INDEX":100000,
 		"P2P_DEFAULT_PORT":7710,
 		"RPC_DEFAULT_PORT":7711,
 		"SEED_NODES":["127.0.0.1:7710"],
@@ -24,6 +22,10 @@
 		"CRYPTONOTE_DISPLAY_DECIMAL_POINT":3,
 		"CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW":40,
 		"CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE":400000,
-		"UPGRADE_HEIGHT":1
+		"CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V1":40000,
+		"CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V2":4000,
+		"UPGRADE_HEIGHT":1,
+		"UPGRADE_HEIGHT_V1":100000,
+		"UPGRADE_HEIGHT_V2":1000000
 	}
 }
