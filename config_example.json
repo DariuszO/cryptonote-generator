@@ -1,14 +1,15 @@
 {
-	"extensions": [ "core/bytecoin.json", "print-genesis-tx.json", "genesis-block-reward.json", "multiply.json", "versionized-parameters.json", "bug-fixes.json", "cryptonight-v7.json", "get-blockchain-settings.json" ],
+	"extensions": [ "core/bytecoin.json", "min-mixin.json", "mixin-start-height.json", "print-genesis-tx.json", "genesis-block-reward.json", "multiply.json", "versionized-parameters.json", "bug-fixes.json", "cryptonight-v7.json", "get-blockchain-settings.json", "multiply/cryptonight-v7.json", "multiply/versionized-parameters.json", "multiply/min-mixin.json", "multiply/mixin-start-height.json" ],
 	"base_coin": "bytecoin-v2",
 	"core":{
 		"CRYPTONOTE_NAME":"TrueSQN",
 		"CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX":59802815264,
-		"KEY_IMAGE_CHECKING_BLOCK_INDEX":1000000,
+		"KEY_IMAGE_CHECKING_BLOCK_INDEX":13000000,
 		"POW_CRYPTONIGHT_V7_BLOCK_INDEX":100000,
 		"POW_CRYPTONIGHT_V7_LAST_BLOCK":100000,
 		"P2P_DEFAULT_PORT":7710,
 		"RPC_DEFAULT_PORT":7711,
+		"MIN_MIXIN":1,
 		"SEED_NODES":["127.0.0.1:7710"],
         "CHECKPOINTS":[ 
 		"0:012801ff0001c09e91c191c79502029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101241beb5890c0ae15ae11f1d7302bd610c82cc8320abfa15f847be4c22b13ef51"
@@ -19,6 +20,15 @@
 		"MONEY_SUPPLY":"10000000000000000000",
 		"EMISSION_SPEED_FACTOR":13,
 		"DIFFICULTY_TARGET":300,
+		"DIFFICULTY_WINDOW":250,
+		"DIFFICULTY_WINDOW_V1":150,
+		"DIFFICULTY_WINDOW_V2":50,
+		"DIFFICULTY_CUT":60,
+		"DIFFICULTY_CUT_V1":30,
+		"DIFFICULTY_CUT_V2":15,
+		"DIFFICULTY_LAG":15,
+		"DIFFICULTY_LAG_V1":10,
+		"DIFFICULTY_LAG_V2":5,
 		"MINIMUM_FEE":4000,
 		"DEFAULT_DUST_THRESHOLD":1000000,
 		"CRYPTONOTE_DISPLAY_DECIMAL_POINT":3,
@@ -26,8 +36,12 @@
 		"CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE":400000,
 		"CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V1":40000,
 		"CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V2":4000,
+		"CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V3":400,
+		"CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V4":40,
 		"UPGRADE_HEIGHT":1,
 		"UPGRADE_HEIGHT_V1":100000,
-		"UPGRADE_HEIGHT_V2":1000000
+		"UPGRADE_HEIGHT_V2":1000000,
+		"UPGRADE_HEIGHT_V3":2000000,
+		"UPGRADE_HEIGHT_V4":10000000
 	}
 }
