@@ -1,21 +1,17 @@
 {
 	"extensions": [ "core/bytecoin.json", "bug-fixes.json", "walletd-extension.json", "kill-height.json", "blockchain-explorer.json", "genesis-block-reward.json", "versionized-parameters.json", "multiply.json", "get-blockchain-settings.json", "cryptonight-v7.json", "enable-cors.json", "print-genesis-tx.json" ],
-	"base_coin":{
-		"name":"bytecoin-v2",
-		"git":"https://github.com/amjuarez/bytecoin.git",
-		"branch":"frozen-master"
-	},
+	"base_coin": "bytecoin-v2",
 	"core":{
 		"CRYPTONOTE_NAME":"TrueSQN",
-		"CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX":0xdec868b20,
+		"CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX":59802815264,
 		"P2P_DEFAULT_PORT":7710,
 		"RPC_DEFAULT_PORT":7711,
 		"SEED_NODES":["127.0.0.1:7710"],
         "CHECKPOINTS":[],
 		"P2P_STAT_TRUSTED_PUB_KEY":"",
 		"GENESIS_COINBASE_TX_HEX":"",
-		"BYTECOIN_NETWORK":"0xb5, 0x0c, 0x4a, 0x6c, 0xcf, 0x52, 0x57, 0x41, 0x65, 0xf9, 0x91, 0xa4, 0xb6, 0xc1, 0x43, 0xe9",
-		"MONEY_SUPPLY":"10000000000000000000ull",
+		"BYTECOIN_NETWORK":"b50c4a6c-cf52-5741-65f9-91a4b6c143e9",
+		"MONEY_SUPPLY":"10000000000000000000",
 		"EMISSION_SPEED_FACTOR":13,
 		"DIFFICULTY_TARGET":300,
 		"MINIMUM_FEE":4000,
