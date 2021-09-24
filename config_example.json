@@ -1,27 +1,28 @@
 {
-	"extensions": [ "core/bytecoin.json", "print-genesis-tx.json" ],
+	"extensions": [ "core/bytecoin.json", "bug-fixes.json", "walletd-extension.json", "kill-height.json", "blockchain-explorer.json", "genesis-block-reward.json", "versionized-parameters.json", "multiply.json", "get-blockchain-settings.json", "cryptonight-v7.json", "enable-cors.json", "print-genesis-tx.json" ],
 	"base_coin":{
-		"name":"bytecoin",
-		"git":"https://github.com/amjuarez/bytecoin.git"
+		"name":"bytecoin-v2",
+		"git":"https://github.com/amjuarez/bytecoin.git",
+		"branch":"frozen-master"
 	},
 	"core":{
-		"CRYPTONOTE_NAME":"examplecoin",
-		"CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX":72,
-		"P2P_DEFAULT_PORT":29090,
-		"RPC_DEFAULT_PORT":29091,
-		"SEED_NODES":["127.0.0.1:29090"],
+		"CRYPTONOTE_NAME":"TrueSQN",
+		"CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX":0xdec868b20,
+		"P2P_DEFAULT_PORT":7710,
+		"RPC_DEFAULT_PORT":7711,
+		"SEED_NODES":["127.0.0.1:7710"],
         "CHECKPOINTS":[],
-		"P2P_STAT_TRUSTED_PUB_KEY":"4d26c4df7f4ca7037950ad026f9ab36dd05d881952662992f2e4dcfcafbe57eb",
-		"GENESIS_COINBASE_TX_HEX":"010a01ff0001ffffffffffff0f029b2e4c0271c0b42e7c53291a94d1c0cbff8883f8024f5142ee494ffbbd08807121013c086a48c15fb637a96991bc6d53caf77068b5ba6eeb3c82357228c49790584a",
-		"BYTECOIN_NETWORK":"12345678-1100-0101-1011-001210110110",
-		"MONEY_SUPPLY":"18446744073709551615",
-		"EMISSION_SPEED_FACTOR":18,
-		"DIFFICULTY_TARGET":120,
-		"MINIMUM_FEE":1000000,
+		"P2P_STAT_TRUSTED_PUB_KEY":"",
+		"GENESIS_COINBASE_TX_HEX":"",
+		"BYTECOIN_NETWORK":"0xb5, 0x0c, 0x4a, 0x6c, 0xcf, 0x52, 0x57, 0x41, 0x65, 0xf9, 0x91, 0xa4, 0xb6, 0xc1, 0x43, 0xe9",
+		"MONEY_SUPPLY":"10000000000000000000ull",
+		"EMISSION_SPEED_FACTOR":13,
+		"DIFFICULTY_TARGET":300,
+		"MINIMUM_FEE":4000,
 		"DEFAULT_DUST_THRESHOLD":1000000,
-		"CRYPTONOTE_DISPLAY_DECIMAL_POINT":12,
-		"CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW":10,
-		"CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE":20000,
+		"CRYPTONOTE_DISPLAY_DECIMAL_POINT":3,
+		"CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW":40,
+		"CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE":400000,
 		"UPGRADE_HEIGHT":1
 	}
 }
